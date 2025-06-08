@@ -1,18 +1,18 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    -webkit-font-smoothing: antialised;
+margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Inter", sans-serif;
+ -webkit-font-smoothing: antialised;
 }
 
 :root {
-    --almost-white: #fffdfa;
-    --dark-blue: #00001A;
-    --gubmetal: #5e607a;
-    --vermillion: #f15d51;
-    --yellow: #e9aa52;
-    --silver: #c5c6ce;
+ --almost-white: #fffdfa;
+ --dark-blue: #00001A;
+ --gubmetal: #5e607a;
+ --vermillion: #f15d51;
+ --yellow: #e9aa52;
+ --silver: #c5c6ce;
 }
 
 
@@ -66,13 +66,48 @@ Add commentMore actions
 
 .primeira-secao button {
     padding: 0.75rem 2rem;
-    background-color: var(--vermillion);
+ background-color: var(--vermillion);
     border: none;
     text-transform: uppercase;
     color: var(--almost-white);
-    font-weight: 700;
+font-weight: 700;
     font-size: 0.875rem;
     letter-spacing: 0.275rem;
     line-height: 1.25rem;
 
+}
+
+Add commentMore actions
+
+.segunda-secao {
+background-color: var(--dark-blue);
+margin-bottom: 4rem;
+ padding: 1.5rem 1.1rem;
+}
+
+.margin-border-padding {
+    border-bottom: 1px solid var(--gunmetal);
+ margin-bottom: 1.75rem;
+   padding-bottom: 1.75rem;
+}
+
+.segunda-secao h2 {
+color: var(--yellow);
+font-size: 2rem;
+ line-height: 100%;
+  margin-bottom: 2.2rem;
+}
+
+.segunda-secao h3 {
+color: var(--almost-white);
+font-size: 1.25rem;
+line-height: 1.5rem;
+font-weight: 800;
+margin-bottom: 0.5rem;
+}
+
+.segunda-secao p {
+color: var(--silver);
+font-size: 0.9375rem;
+line-height: 1.625rem;
 }
